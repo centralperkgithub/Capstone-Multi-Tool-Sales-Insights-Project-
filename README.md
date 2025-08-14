@@ -79,10 +79,44 @@ SET Item_Fat_Content = CASE
     WHEN Item_Fat_Content = 'reg' THEN 'Regular'
     ELSE Item_Fat_Content
 END;
-
+```
 **KPI & Granular Analysis Example:**
-
+```sql
 SELECT Item_Type, CAST(SUM(Item_Outlet_Sales) AS DECIMAL(18, 2)) AS TotalSales
 FROM blinkit_data
 GROUP BY Item_Type
 ORDER BY TotalSales DESC;
+```
+### **2️⃣ Power BI - Interactive Dashboarding**
+
+**Power BI** was used to transform cleaned data into a **dynamic dashboard** for stakeholders.
+
+**Key Processes:**
+
+- **Data Connection & Transformation:** Connected directly to the SQL database and made adjustments using Power Query.  
+- **DAX Measures:** Calculated KPIs such as Total Sales, Average Sales, etc., which update dynamically with user interaction.  
+- **Visualization:** Built various charts including **donut charts, bar charts, line charts, and matrices** to address all analysis objectives.  
+- **Interactivity:** Implemented **slicers** for Outlet Location, Outlet Size, and Item Type, allowing users to filter the dashboard and drill down into specific segments.
+
+<img width="1534" height="821" alt="image" src="https://github.com/user-attachments/assets/560d0db7-b6ae-4224-89f4-fabd1910433c" />
+
+
+### 3️⃣ Python - Exploratory Data Analysis (EDA)
+
+**Python** (via **Jupyter Notebook**) was used to perform a **deep-dive analysis**, uncovering patterns and insights through statistical summaries and visualizations.
+
+**Key Processes:**
+
+- **Data Loading & Inspection:** Used Pandas methods like `.head()`, `.info()`, and `.describe()` to explore the dataset.  
+- **Data Cleaning:** Programmatically cleaned data similar to the SQL cleaning process.  
+- **Descriptive Statistics:** Calculated main KPIs to get a quantitative summary of the data.  
+- **Visualizations:**  
+  - **Pie chart:** Shows sales distribution by Fat Content.  
+  - **Bar chart:** Ranks Item Types by total sales.  
+  - **Line chart:** Tracks sales trends by Outlet Establishment Year.
+
+
+
+
+
+
