@@ -3,39 +3,7 @@
 ![Project Status](https://img.shields.io/badge/status-complete-green) ![Tech Stack](https://img.shields.io/badge/tech-SQL_|_Power_BI_|_Python_|_Excel-blue)
 ![Blinkit Sales Analysis](https://www.mermaidchart.com/app/projects/0f336acc-11ed-4f5c-9e2d-b03a845e5734/diagrams/4b9171e1-d79b-4129-a3b7-5236bb63b3be/version/v0.1/edit)
 ```mermaid
-flowchart TD
-    %% Start
-    A[Start: Blinkit Sales Analysis Project]:::blinkitLogo
 
-    %% SQL Section
-    B[SQL - Database Structuring & Querying]:::sqlLogo
-    C[Key Actions:<br>- Import CSV to MSSQL<br>- Standardize columns<br>- Calculate KPIs<br>- Group & Aggregate Queries]:::sqlLogo
-
-    %% Python EDA Section
-    D[Python - Exploratory Data Analysis (EDA)]:::pythonLogo
-    E[Key Actions:<br>- Load & Inspect Data<br>- Clean Data<br>- Descriptive Statistics<br>- Visualizations]:::pythonLogo
-
-    %% Power BI Section
-    F[Power BI - Interactive Dashboarding]:::powerbiLogo
-    G[Key Actions:<br>- Connect SQL<br>- Transform Data<br>- DAX Measures<br>- Interactive Visuals]:::powerbiLogo
-
-    %% Conclusion
-    H[Conclusion & Insights]:::blinkitLogo
-
-    %% Connections
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-
-    %% Styles
-    classDef blinkitLogo fill:#FFE600,stroke:#000,stroke-width:1px,color:#000;
-    classDef sqlLogo fill:#F29111,stroke:#000,stroke-width:1px,color:#000;
-    classDef pythonLogo fill:#306998,stroke:#000,stroke-width:1px,color:#fff;
-    classDef powerbiLogo fill:#F2C80F,stroke:#000,stroke-width:1px,color:#000;
 
 
 ### Overview
