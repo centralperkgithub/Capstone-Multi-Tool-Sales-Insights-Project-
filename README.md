@@ -80,3 +80,9 @@ SET Item_Fat_Content = CASE
     ELSE Item_Fat_Content
 END;
 
+**KPI & Granular Analysis Example:**
+
+SELECT Item_Type, CAST(SUM(Item_Outlet_Sales) AS DECIMAL(18, 2)) AS TotalSales
+FROM blinkit_data
+GROUP BY Item_Type
+ORDER BY TotalSales DESC;
