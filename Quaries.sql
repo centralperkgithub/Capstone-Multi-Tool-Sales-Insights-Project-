@@ -1,10 +1,12 @@
--- SQL Queries for Blinkit Data Analysis
+**-- SQL Queries for Blinkit Data Analysis**
 -- This file contains SQL queries for data cleaning, KPI calculations, and various sales analyses
 -- on the 'blinkit_data' table.
 
 -- Data Cleaning: Standardize Item_Fat_Content
 -- Ensures data consistency by unifying variations like 'LF', 'low fat' to 'Low Fat'
 -- and 'reg' to 'Regular'.
+
+
 UPDATE blinkit_data
 SET Item_Fat_Content =
 CASE
@@ -15,6 +17,7 @@ END;
 
 -- Verify Data Cleaning: Check distinct Item_Fat_Content values
 -- Run this query after the UPDATE statement to confirm standardization.
+
 SELECT DISTINCT Item_Fat_Content FROM blinkit_data;
 
 -- KPI 1: Total Sales (in Millions)
