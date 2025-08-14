@@ -3,9 +3,7 @@
 ![Project Status](https://img.shields.io/badge/status-complete-green) 
 ![Tech Stack](https://img.shields.io/badge/tech-SQL_|_Power_BI_|_Python_|_Excel-blue)
 
-![Blinkit Sales Analysis](https://www.mermaidchart.com/app/projects/0f336acc-11ed-4f5c-9e2d-b03a845e5734/diagrams/4b9171e1-d79b-4129-a3b7-5236bb63b3be/version/v0.1/edit)
-
----<img width="3840" height="362" alt="Untitled diagram _ Mermaid Chart-2025-08-14-131158" src="https://github.com/user-attachments/assets/761b151c-147f-4a09-8b41-314dd90ff433" />
+---<img width="3860" height="380" alt="Untitled diagram _ Mermaid Chart-2025-08-14-131158" src="https://github.com/user-attachments/assets/761b151c-147f-4a09-8b41-314dd90ff433" />
 
 
 ## Overview
