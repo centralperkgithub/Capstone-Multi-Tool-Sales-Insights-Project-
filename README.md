@@ -5,7 +5,8 @@
 
 ![Blinkit Sales Analysis](https://www.mermaidchart.com/app/projects/0f336acc-11ed-4f5c-9e2d-b03a845e5734/diagrams/4b9171e1-d79b-4129-a3b7-5236bb63b3be/version/v0.1/edit)
 
----
+---<img width="3840" height="362" alt="Untitled diagram _ Mermaid Chart-2025-08-14-131158" src="https://github.com/user-attachments/assets/761b151c-147f-4a09-8b41-314dd90ff433" />
+
 
 ## Overview
 This repository documents an end-to-end data analysis project focused on Blinkit, a leading quick-commerce grocery delivery platform. The project demonstrates a complete analytics workflow, from data cleaning and querying in SQL to building an interactive dashboard in Power BI and performing exploratory data analysis (EDA) in Python. The goal is to derive actionable insights into sales patterns, customer preferences, and operational performance.
